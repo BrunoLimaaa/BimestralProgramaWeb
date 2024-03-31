@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box; 
+  text-decoration: none; 
+  color: white;
+
+}
+.container2{
+  
+  margin-left: 20px;
+  margin-top: 30vh;
+  
+        
+    }
+    
+  .container{
+      
+      color:rgb(255, 255, 255);
+      width: 280px;
+      height: 75vh;
+      display: flex;
+      flex-direction: column;
+      font-family: Arial, Helvetica, sans-serif;
+      background-image: url(./img/back.png);
+      background-position: center;
+      background-repeat:no-repeat;
+      background-size: cover;
+    border-radius: 25px;
+    margin-top: 6vh;
+      
+  }
+  
+
+
+.form_main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: none;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  max-height: 70vh;
+  
+ 
+}
+
+
+
+
+
+.heading {
+  padding: auto;
+  font-size: 2em;
+  color: #fafafa;
+  font-weight: 700;
+  z-index: 2;
+  margin-right: 100px;
+  margin-top: 6vh;
+
+}
+
+.inputContainer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  
+}
+p{
+  z-index: 2;
+}
+.inputIcon {
+  position: absolute;
+  left: 3px;
+}
+
+.inputField {
+
+  width: 100%;
+  height: 5vh;
+
+  border: none;
+  border-bottom: 2px solid rgb(172 172 172);
+  margin: 10px 0;
+  color: black;
+  font-size: .8em;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding-left: 30px;
+ 
+}
+
+.inputField:focus {
+  outline: none;
+  border-bottom: 2px solid blue;
+}
+
+.inputField::placeholder {
+  color: rgb(80, 80, 80);
+  font-size: 1em;
+  font-weight: 500;
+}
+
+#button {
+  z-index: 2;
+  position: relative;
+  width: 14vh;
+  border-radius: 100px;
+  background-color: #2D54EE;
+  height: 45px;
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 10px;
+  cursor: pointer;
+
+ 
+}
+
+#button:hover {
+  background-color: #1f39a1;
+}
+
+.forgotLink {
+  z-index: 2;
+  font-size: .7em;
+  font-weight: 500;
+  color: rgb(24, 31, 128);
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+
+
+body {
+  font-size: 100%; 
+background-color: #c4c4c4;
+display: flex;
+justify-content: center;
+
+}
+
+
+.gmail{
+  display: flex;
+  margin-right: 180px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: white;
+  z-index: 1;
+}
